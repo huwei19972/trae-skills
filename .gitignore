@@ -1,0 +1,5 @@
+# 只跟踪 skills 和 user_rules，其余一律忽略
+/*
+!skills/
+!user_rules/
+!.gitignore
