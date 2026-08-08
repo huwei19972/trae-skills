@@ -17,7 +17,7 @@ $ErrorActionPreference = "Continue"
 $RepoDir     = $PSScriptRoot
 $SkillsRepo  = Join-Path $RepoDir "skills"
 $McpRepo     = Join-Path $RepoDir "mcp.json"
-$SkillsLocal = Join-Path $env:USERPROFILE ".trae\skills"
+$SkillsLocal = Join-Path $env:USERPROFILE ".trae-cn\skills"
 $McpLocal    = Join-Path $env:APPDATA "Trae CN\User\mcp.json"
 
 Set-Location $RepoDir
